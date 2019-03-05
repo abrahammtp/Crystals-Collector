@@ -46,9 +46,10 @@ img {
     height: 75px;
     background: chocolate;
     color: black;
-    font-size: 30px;
+    font-size: 50px;
     text-align: center;
     margin-left: 600px;
+    font-weight: bold;
 }
 
 .random-number {
@@ -56,10 +57,11 @@ img {
     height: 75px;
     background: chocolate;
     color: black;
-    font-size: 30px;
+    font-size: 50px;
     text-align: center;
     padding-top: 10px;
     margin-left: 600px;
+    font-weight: bold;
 }
 
 .container {
@@ -70,6 +72,7 @@ img {
     color: black;
     text-align: center;
     margin-left: 600px;
+    font-weight: bold;
     
 }
 
