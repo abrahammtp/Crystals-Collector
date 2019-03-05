@@ -2,19 +2,14 @@ $(document).ready(function () {
 // Global variables
         // This variable is the number that we have to match to win the game
     var randomNumber = Math.floor(Math.random() * 100 + 20);
-    console.log("random number " + randomNumber);
         // Variable for the red crystal, its value is assigned here too
     var redCrystal = Math.floor((Math.random() * 12) + 1);
-    console.log("red crystal " + redCrystal);
         // Variable for the yellow crystal, its value is assigned here too
     var yellowCrystal = Math.floor((Math.random() * 12) + 1);
-    console.log("yellow crystal " + yellowCrystal);
         // Variable for the green crystal, its value is assigned here too
     var greenCrystal = Math.floor((Math.random() * 12) + 1);
-    console.log("green crystal " + greenCrystal);
         // Variable for the blue crystal, its value is assigned here too
     var blueCrystal = Math.floor((Math.random() * 12) + 1);
-    console.log("blue crystal " + blueCrystal);
         // These are the variables that the user will see, they are going to update according to the progression of the game
     var score = 0;
     var wins = 1;
