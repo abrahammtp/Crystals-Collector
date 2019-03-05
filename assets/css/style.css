@@ -1,79 +1,75 @@
 body {
-    background-color: lightgreen;
+    background-color: white;
 }
 
 .title {
+    padding: 5 5 5 5px;
     font-size: 30px;
-    color: white;
+    color: black;
     text-align: center;
     background: chocolate;
     width: 30%;
+    margin-left: 525px;
 }
 
 .main-text {
     font-size: 18px;
-    color: white;
+    color: black;
     text-align: center;
     background: chocolate;
-    width: 65%;
+    width: 55%;
     text-align: center;
+    height: 30%;
+    margin-left: 325px;
 }
 
 img {
     float: left;
-    height: 100px;
-    width: 100px;
+    height: 150px;
+    width: 150px;
     position: relative;
+    margin-left: 200px;
 }
-
-
-/* .random-number {
-    width: 100px;
-    height: 100px;
-    background: chocolate;
-}
-
-.score {
-    width: 100px;
-    height: 100px;
-    background: chocolate;
-} */
 
 .total-score-text {
     clear: both;
     background: chocolate;
     width: 20%;
     font-size: 20px;
-    color: white;
+    color: black;
     text-align: center;
+    margin-left: 600px;
 }
 
 .total-score {
     width: 20%;
-    height: 100px;
+    height: 75px;
     background: chocolate;
-    color: white;
+    color: black;
     font-size: 30px;
     text-align: center;
+    margin-left: 600px;
 }
 
 .random-number {
     width: 20%;
-    height: 100px;
+    height: 75px;
     background: chocolate;
-    color: white;
+    color: black;
     font-size: 30px;
     text-align: center;
     padding-top: 10px;
+    margin-left: 600px;
 }
 
 .container {
     width: 20%;
-    height: 100px;
+    height: 75px;
     background: chocolate;
     font-size: 18px;
-    color: white;
+    color: black;
     text-align: center;
+    margin-left: 600px;
     
 }
 
@@ -81,19 +77,6 @@ img {
     margin: 0px;
 }
 
-/* .blue-crystal {
-    padding: 0 10 10 0px;
+.game {
+    align-content: center;
 }
-
-.red-crystal {
-    padding: 0 10 10 0px;
-}
-
-.yellow-crystal {
-    padding: 0 10 10 0px;
-}
-
-.green-crystal {
-    padding: 0 10 10 0px;
-} */
-

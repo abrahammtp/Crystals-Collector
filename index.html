@@ -10,75 +10,77 @@
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css">
     <!-- Main css file, styling is done here -->
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css">
-    <script
-  src="https://code.jquery.com/jquery-3.3.1.js"
-  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
-  crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
 </head>
 
 <body>
-    <!-- Game's title -->
-    <div class="title">Crystals Collector!</div>
-    <br>
-    <!-- Text describing the instructions on how to play the game -->
-    <div class="main-text">
-        <p>You will be given a random number at the start of the game.</p>
+    <div class="game">
+        <!-- Game's title -->
+        <div class="title">Crystals Collector!</div>
         <br>
-        <p>There are four crystlas below. By clicking on a crystal you will add a specific amount of points to your
-            total score.</p>
-        <br>
-        <p>You win the fame by matching your total score to the randon number, you lose the game if your total score
-            goes above the random number.</p>
-        <br>
-        <p>The value of each crystal is hidden from you until you click on it.</p>
-        <br>
-        <p>Each time when the game starts, the game will change the values of each crystal.</p>
-    </div>
-    <br>
-    <div class="row">
-        <div class="col-md-8">
-            <div class="random-number">0</div>
+        <!-- Text describing the instructions on how to play the game -->
+        <div class="main-text">
+            <p>You will be given a random number at the start of the game.</p>
+            <br>
+            <p>There are four crystlas below. By clicking on a crystal you will add a specific amount of points to your
+                total score.</p>
+            <br>
+            <p>You win the fame by matching your total score to the randon number, you lose the game if your total score
+                goes above the random number.</p>
+            <br>
+            <p>The value of each crystal is hidden from you until you click on it.</p>
+            <br>
+            <p>Each time when the game starts, the game will change the values of each crystal.</p>
         </div>
-        <div class="col-md-4">
-            <div class="container">
-                <div class="row">
-                    <div class="score-wins">Wins: </div>
+        <br>
+        <!-- This row is going to contain the score, wins and losses -->
+        <div class="row">
+            <div class="col-md-8">
+                <div class="random-number">0</div>
+            </div>
+            <div class="col-md-4">
+                <div class="container">
+                    <div class="row">
+                        <div class="score-wins">Wins: </div>
+                    </div>
                     <br>
+                    <div class="row">
+                        <div class="score-losses">Losses: </div>
+                    </div>
                 </div>
-                <div class="row">
-                    <div class="score-losses">Losses: </div>
+            </div>
+        </div>
+        <br>
+        <!-- This row is going to contain the crystals or buttons the player will click on -->
+        <div class="row">
+            <div class="col-md-3">
+                <div class="red-crystal">
+                    <img src="assets/images/red-crystal.png">
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="blue-crystal">
+                    <img src="assets/images/blue-crystal.png">
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="green-crystal">
+                    <img src="assets/images/green-crystal.png">
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="yellow-crystal">
+                    <img src="assets/images/yellow-crystal.webp">
                 </div>
             </div>
         </div>
+        <br>
+        <!-- These next two divs are going to let the player know how many points he has so far -->
+        <div class="total-score-text">Your total score is:</div>
+        <br>
+        <div class="total-score"></div>
     </div>
-    <br>
-    <div class="row">
-        <div class="col-md-3">
-            <div class="red-crystal">
-                <img src="assets/images/red-crystal.png">
-            </div>
-        </div>
-        <div class="col-md-3">
-            <div class="blue-crystal">
-                <img src="assets/images/blue-crystal.png">
-            </div>
-        </div>
-        <div class="col-md-3">
-            <div class="green-crystal">
-                <img src="assets/images/green-crystal.png">
-            </div>
-        </div>
-        <div class="col-md-3">
-            <div class="yellow-crystal">
-                <img src="assets/images/yellow-crystal.webp">
-            </div>
-        </div>
-    </div>
-    </div>
-    <br>
-    <div class="total-score-text">Your total score is:</div>
-    <br>
-    <div class="total-score"></div>
 
 
     <!-- JavaScript file -->
