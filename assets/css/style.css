@@ -1,5 +1,6 @@
 body {
-    background-color: white;
+    background-image: url(https://png.pngtree.com/thumb_back/fh260/back_pic/03/61/33/0357a734d62badc.jpg);
+    font-family: 'Bungee Inline', cursive;
 }
 
 .title {
@@ -7,7 +8,7 @@ body {
     font-size: 30px;
     color: black;
     text-align: center;
-    background: chocolate;
+    background: lightgray;
     width: 30%;
     margin-left: 525px;
 }
@@ -16,7 +17,7 @@ body {
     font-size: 18px;
     color: black;
     text-align: center;
-    background: chocolate;
+    background: lightgray;
     width: 55%;
     text-align: center;
     height: 30%;
@@ -33,7 +34,7 @@ img {
 
 .total-score-text {
     clear: both;
-    background: chocolate;
+    background: lightgray;
     width: 20%;
     font-size: 20px;
     color: black;
@@ -44,7 +45,7 @@ img {
 .total-score {
     width: 20%;
     height: 75px;
-    background: chocolate;
+    background: lightgray;
     color: black;
     font-size: 50px;
     text-align: center;
@@ -55,7 +56,7 @@ img {
 .random-number {
     width: 20%;
     height: 75px;
-    background: chocolate;
+    background: lightgray;
     color: black;
     font-size: 50px;
     text-align: center;
@@ -67,7 +68,7 @@ img {
 .container {
     width: 20%;
     height: 75px;
-    background: chocolate;
+    background: lightgray;
     font-size: 18px;
     color: black;
     text-align: center;
