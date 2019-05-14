@@ -10,7 +10,7 @@ This repository is going to contain a game named Crystals Collectors. The player
     * CSS
     * Google Fonts
     
-# Game demostrations
+# Game Demonstrations
 
 
 ![Crystals-Won](https://user-images.githubusercontent.com/46465000/57720334-a426a200-764f-11e9-9c9b-be3484e6350d.gif)
